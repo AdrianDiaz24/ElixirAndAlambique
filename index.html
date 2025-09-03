@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elixir & Alambique</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="Menúbodega.html">Productos</a></li>
+        <li><a href="#reservas">Reservas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+<section id="titulo" class="titulo-principal">
+  <h1> Elixir & Alambique </h1>
+</section>
+
+  <section id="inicio" class="hero">
+  <img src="bodega.jpg" alt="Interior elegante de bodega" class="hero-img">
+  <div class="hero-content">
+    <h1>Bienvenidos a nuestra Licorería</h1>
+    <p>Descubre sabores únicos, destilados con pasión.</p>
+    <a href="Menúbodega.html" class="btn">Ver Productos</a>
+  </div>
+</section>
+
+
+  
+
+  <section id="reservas">
+    <h2>Reservas</h2>
+    <form action="https://formspree.io/f/tu-id-aqui" method="POST">
+      <input type="text" name="nombre" placeholder="Nombre completo" required>
+      <input type="email" name="email" placeholder="Correo electrónico" required>
+      <input type="date" name="fecha" required>
+      <input type="time" name="hora" required>
+      <input type="number" name="personas" placeholder="Número de personas" min="1" required>
+      <textarea name="comentarios" placeholder="Comentarios (opcional)"></textarea>
+      <button type="submit">Enviar Reserva</button>
+    </form>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Dirección: Calle Avenida Carmesí, 69, Ciudad Hilthop</p>
+    <p>Email: contacto@licoreria.com</p>
+    <p>Tel: +1 601 754 6784</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Licorería y Destilería. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
